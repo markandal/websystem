@@ -5,8 +5,7 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-
-            background-image: C:\Users\983440\Desktop\Background.jpg
+            background-image: url("bg.jpg");
         }
         header {
             background-color: #333;
