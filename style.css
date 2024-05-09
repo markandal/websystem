@@ -1,3 +1,42 @@
-body {
-  background-color: darkred;
-}
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+
+            background-image: C:\Users\983440\Desktop\Background.jpg
+        }
+        header {
+            background-color: #333;
+            padding: 25px 0;
+        }
+        nav {
+            text-align: center;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+            border: 1px solid #fff;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        nav ul li a:hover {
+            background-color: #555;
+        }
+        h0 {
+            text-align: center;
+            font: ;
+        }
+    </style>
