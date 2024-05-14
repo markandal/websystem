@@ -1,15 +1,23 @@
 
-    <style>
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-            background-image: url("bg.jpg");
+            background-image: url('background.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: fixed;
+        }
+
+        .logo{
+            font-family: cursive;
+            text-align: center;
+            color: white;
+            font-size: 25px;
+            font-weight: bolder;
         }
         header {
-            background-color: #333;
-            padding: 25px 0;
+            font-family: monospace;
+            font-size: 19px;
+            padding: 30px;
         }
         nav {
             text-align: center;
@@ -24,7 +32,7 @@
             margin-right: 20px;
         }
         nav ul li a {
-            color: #fff;
+            color: #333;
             text-decoration: none;
             padding: 10px;
             border: 1px solid #fff;
@@ -38,4 +46,3 @@
             text-align: center;
             font: ;
         }
-    </style>
