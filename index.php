@@ -16,20 +16,29 @@
     </div>
 
     <div class="about">
-        <a href="about"><h3>About Us</h3></a>
+        <a href="about.php"><h3>About Us</h3></a>
     </div>
 
     <header>
         
-        <nav>
+        <nav class="nav_bar">
             <ul>
-                <li><a href="#">Dashboard</a></li>
-                <li><a href="#">Vegetables</a></li>
+                <li><a href="#">Add Food</a></li>
+                <li><a href="#">Cart</a></li>
             </ul>
         </nav>
     </header>
 
+    <div class="form_container">
+            <h3 class="heading">Add Food</h3>
+            <form action="" class="add_food">
+                <input type="text" placeholder="Enter food name" class="input_field" required>
+                <input type="number" min= "0"placeholder="Days until expiry" class="input_field" required>
+                <input type="file" class="input_field" required>
+                <input type="submit" class="submit" value="Add Food">
+            </form>
+    </div>
 
-    </footer>
+
 </body>
 </html>
