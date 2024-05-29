@@ -12,6 +12,10 @@
             <a href="index.php"><h1>Sparefood</h1></a>
 
 <body>
+
+    <?php include('connection.php'); ?>
+
+
     
     </div>
 
