@@ -27,19 +27,22 @@
 </head>
 <body>
     <header>
-        <h1>About Us</h1>
+        <h1>
+        
+    About Us</h1>
     </header>
 
     <main>
         <section>
             <h2>Our Mission</h2>
-            <p>We formed our group on 2024. we are a group of four members. We came up with this idea and decided to make a website based on spare foods where users can donate the spare foods for needy peoples.</p>
+            <img src="unity.png" alt="unity" style="width:250px;height:150px; border:solid;"> 
+            <p>We formed our group on 2024. We are a group of four members. We came up with this idea and decided to make a website based on spare foods where users can donate the spare foods for needy peoples.</p>
         </section>
 
         <section>
             <h2>Our Team</h2>
             <p>Meet our dedicated team members:</p>
-            <ul>
+            <ul class="absolute">
                 <li>Mark</li>
                 <li>Manoj Gurung</li>
                 <li>Ali</li>
