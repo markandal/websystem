@@ -33,7 +33,7 @@ if (isset($_POST['rego'])){
         <input type="text" class="input_field" name="password" required>
         <input type="submit" value="Register">
     </form>
-    <input type="submit" name="login" class="login" value="Add Food" style="background-color: skyblue" onclick="location.href='login.php';">
+    <input type="submit" name="login" class="login" value="Login" style="background-color: skyblue" onclick="location.href='login.php';">
 </div>
 
 
