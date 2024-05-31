@@ -57,7 +57,13 @@
             float: left;
             
         }
-        
+        h1.ab {
+            border-style: solid;
+        }
+
+        footer {
+            text-align: center;
+        }
 
 
 
