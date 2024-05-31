@@ -57,6 +57,23 @@
         </section>
     </main>
 
+    <div class="form_container">
+            <h3 class="heading">Feedback</h3>
+            <form action="" class="add_food">
+                <input type="text" placeholder="First Name" class="input_field" required>
+                <input type="text" placeholder="Last Name" class="input_field" required>
+                <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+                <input type="text" placeholder="Please write a feedback..." class="input_field" required>
+
+                <input type="submit" class="submit" value="Submit">
+            </form>
+    </div>
+
     <footer>
         <p>&copy; 2024 Spare Foods. All rights reserved.</p>
     </footer>
