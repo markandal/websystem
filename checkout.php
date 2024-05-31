@@ -1,9 +1,19 @@
 <?php
 include 'connection.php';
 
- if (isset($_GET['delete'])) {
- 	$delete_id = $_GET['delete'];
- 	echo $delete_id;
+// echo print_r($_GET);
+
+ if (isset($_GET['checkout'])) {
+ 	$delete_id = $_GET['checkout'];
+ 	$delete_query=mysqli_query($conn, "Delete from foods where id =$delete_id") or die("Query failed");
+ 	if ($delete_query) {
+ 		header('location:cart.php');
+ 	}
+ 	else{
+ 		echo "Product not deteled";
+ 		header('location:cart.php');
+ 	}
+ 	
 
  	//$delete_query = mysqli_query
  }

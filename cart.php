@@ -95,7 +95,7 @@
                 <th>Name</th>
                 <th>Expiry</th>
                 <th>Address</th>
-                <th>Action</th>
+                 <th>Action</th>
             </tr>
         </thead>
         <tbody>
@@ -110,9 +110,9 @@
                 <td><img src="images/<?php echo $row['image']?>" alt = <?php echo $row['name']; ?>></td>
                 <td><?php echo $row['name']; ?></td>
                 <td><?php echo $row['date']; ?></td>
-                <td><?php echo $row['id']; ?></td>
+                <td><?php echo $row['address']; ?></td>
                 <td>
-                    <a href="checkout.php?checkout = <?php echo $row['id']?>" onclick = "return confirm('Checkout this food?');">Checkout</a>
+                    <a href="checkout.php?checkout=<?= $row['id']?>" onclick = "return confirm('Checkout this food?');">Checkout</a>
                 </td>
             </tr>
         </tbody>
